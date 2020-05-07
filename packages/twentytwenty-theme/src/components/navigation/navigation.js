@@ -2,26 +2,6 @@ import React from "react";
 import { connect, styled } from "frontity";
 import Link from "../link";
 
-// const SubMenu = ({options, currentPageLink}) => (
-//   <Menu submenu>
-//     {options.map(({name, href, Menu}) => {
-//       // Check if the link matched the current page url
-//       const isCurrentPage = currentPageLink === href;
-//       return (
-//         <MenuItem key={name}>
-//           {/* If link url is the current page, add `aria-current` for a11y */}
-//           <MenuLink
-//             link={href}
-//             aria-current={isCurrentPage ? "page" : undefined}
-//           >
-//             {name}
-//           </MenuLink>
-//         </MenuItem>
-//       );
-//     })}
-//   </Menu>
-// )
-
 
 const Menu = ({options, currentPageLink, submenu}) => (
   <StyledMenu submenu={submenu}>
