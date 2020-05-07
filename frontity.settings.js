@@ -22,24 +22,24 @@ const settings = {
               href: '/category/nature/',
             },
             {
-              name: 'Technology',
-              href: '/category/technology/',
+              name: 'Photgraphy',
+              href: '/category/photography/',
             },
             {
-              name: 'Music',
-              href: '/category/music/',
+              name: 'Travel',
+              href: '/category/travel/',
               submenu: [
                 {
-                  name: 'Rock',
-                  href: '/category/music/rock'
+                  name: 'Vietnam',
+                  href: '/tag/vietnam/'
                 },
                 {
-                  name: 'Jazz',
-                  href: '/category/music/jazz'
+                  name: 'Japan',
+                  href: '/tag/japan/'
                 },
                 {
-                  name: 'Country',
-                  href: '/category/music/country'
+                  name: 'Iceland',
+                  href: '/tag/iceland/'
                 }
               ]
             }
@@ -55,7 +55,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://app-5e78b3c5f911c80ca0fe610b.closte.com/wp-json"
+          "api": "https://test.frontity.io/wp-json"
         }
       }
     },
